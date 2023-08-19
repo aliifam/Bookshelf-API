@@ -1,0 +1,21 @@
+{
+    "name": "bookshelf-api",
+    "version": "1.0.0",
+    "description": "submission dicoding bookshelf api with hapi belajar membuat aplikasi backend untuk pemula dengan google cloud platform",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node ./src/server.js",
+        "dev": "nodemon ./src/server.js"
+    },
+    "keywords": [
+        "bookshelf",
+        "api"
+    ],
+    "author": "Aliif Arief Maulana",
+    "license": "ISC",
+    "dependencies": {
+        "@hapi/hapi": "^21.3.2",
+        "nanoid": "^4.0.2"
+    }
+}
